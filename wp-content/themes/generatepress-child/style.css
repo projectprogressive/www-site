@@ -1,0 +1,43 @@
+/*
+ Theme Name:     GeneratePress Child Theme
+ Theme URI:      http://generatepress.com
+ Description:    GeneratePress Child Theme
+ Author:         Thomas Usborne
+ Author URI:     http://edge22.com
+ Template:       generatepress
+ Version:        1.3.06
+*/
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+header.site-header {
+	background-color: #434f69 !important;
+}
+
+header.site-header a {
+	color: #fff !important;
+}
+
+.candidate-meta {
+	list-style: none;
+	margin: 0 0 20px 0;
+}
+
+.candidate-meta > li {
+	margin-bottom: 10px;
+}
+
+.post-meta-key {
+	font-weight: bold;
+}
+
+.wp-post-image {
+	border: 2px solid #434f69;
+	padding: 3px;
+	margin-bottom: 20px;
+}
+
+.ss-form-container {
+	font-family: "Open Sans", sans-serif;
+}
