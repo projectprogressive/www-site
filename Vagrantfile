@@ -55,10 +55,10 @@ Vagrant.configure(2) do |config|
         d.pull_images "mariadb"
         d.pull_images "wordpress"
         d.run "mariadb",
+              image: "mariadb",
               args: "-e MYSQL_ROOT_PASSWORD=mysecretpassword"
         d.run "wordpress",
-              cmd: "bash -l",
-              args: "-p 8080:80 --link mariadb:mysql -v '/vagrant:/var/www/html'"
+              args: "-p 8080:80 --link mariadb:mysql -v /vagrant:/var/www/html"
     end
 
 
