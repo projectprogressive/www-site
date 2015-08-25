@@ -1,0 +1,25 @@
+{
+  "name": "projectprogressive.org",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "test": "phpunit --coverage-clover build/logs/clover.xml tests/Test.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projectprogressive/www-site.git"
+  },
+  "author": "",
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/projectprogressive/www-site/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.11.2",
+    "grunt-phplint": "0.0.5",
+    "grunt-composer": "~0.4.4",
+    "grunt-vagrant": "~0.2.1"
+  }
+}
