@@ -8,6 +8,7 @@ Make sure Vagrant, Virtualbox, and Grunt are installed then run:
         
         npm install
         grunt init
+        vagrant up
         
 Navigate to http://localhost:8080 in your web browser!
 
