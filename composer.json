@@ -1,0 +1,22 @@
+{
+    "name": "projectprogressive/www-site",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "johnpbloch/wordpress": "4.2"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "authors": [
+        {
+            "name": "Enter Name",
+            "email": "name@example.com"
+        }
+    ]
+}

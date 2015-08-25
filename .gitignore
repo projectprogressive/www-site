@@ -1,7 +1,9 @@
+#Github Wordpress Ignore
 *.log
 .htaccess
 sitemap.xml
 sitemap.xml.gz
+wp
 wp-config.php
 wp-content/advanced-cache.php
 wp-content/backup-db/
@@ -10,3 +12,13 @@ wp-content/blogs.dir/
 wp-content/cache/
 wp-content/upgrade/
 wp-content/wp-cache-config.php
+
+#Local Bin folder
+bin
+
+#Developer Files
+/vendor/
+node_modules
+.vagrant
+.idea
+www-site.iml
