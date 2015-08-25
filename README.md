@@ -1,4 +1,4 @@
-# www-site[![Build Status](https://travis-ci.org/projectprogressive/www-site.svg?branch=master)](https://travis-ci.org/projectprogressive/www-site)
+# www-site[![Build Status](https://travis-ci.org/projectprogressive/www-site.svg?branch=master)](https://travis-ci.org/projectprogressive/www-site)[![Coverage Status](https://coveralls.io/repos/projectprogressive/www-site/badge.svg?branch=build-automation&service=github)](https://coveralls.io/github/projectprogressive/www-site?branch=build-automation)
 Work in progress!
 
 # Getting Started
