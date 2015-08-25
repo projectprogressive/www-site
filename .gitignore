@@ -18,8 +18,13 @@ wp-content/wp-cache-config.php
 bin
 
 #Developer Files
+composer.lock
 /vendor/
 node_modules
+build
 .vagrant
 .idea
 www-site.iml
+.project
+.settings
+db
